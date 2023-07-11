@@ -1,12 +1,14 @@
 /* common shared styls */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -17,24 +19,44 @@ body{
 
 }
 
+.section-title {
+
+    color: #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575);
+    text-align: center;
+    font-size: 18px;
+    
+    
+
+
+}
+
+
 /* nav related syles */
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: o 200px;
+    margin: 0 200px;
 }
 
-.nav-title{
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 
@@ -45,7 +67,7 @@ nav li {
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 
@@ -53,16 +75,49 @@ nav a{
 
 /* header related styles */
 
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+
+
 }
-.banner .profile-pic{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
