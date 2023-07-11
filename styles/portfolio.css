@@ -220,3 +220,25 @@ footer{
 
 
 }
+
+.footer-column{
+    width: 50%;
+    gap: 100px;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    background:  #FFF;
+    width: 100%;
+}
+
+.social-links a{
+    margin-right: 25px;
+    
+}
